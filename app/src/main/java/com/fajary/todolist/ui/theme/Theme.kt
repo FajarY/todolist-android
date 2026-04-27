@@ -13,19 +13,23 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    onPrimary = Color(0xFFA5D6A7),
+    onSecondary = Color(0xFF81C784),
+    onTertiary = Color(0xFFC8E6C9),
+    background = Color(0xFF121212),
+    surface = Color(0xFF1E1E1E),
+    onSurface = Color(0xFFE6E1E5),
+    onBackground = Color(0xFFB0B0B0)
 )
 
 private val LightColorScheme = lightColorScheme(
-    onPrimary = Color(0xFF2D5A32),      // slightly deeper green – still rich, better contrast on white
-    onSecondary = Color(0xFF639A5F),    // medium muted green – still fresh, less “minty” than before
-    onTertiary = Color(0xFF8BB582),     // softer, warm light green
-    background = Color(0xFFF8F3E4),     // warm off‑white cream – softer on the eyes than pure yellow‑cream
-    surface = Color.White,              // pure white cards – clean contrast
-    onSurface = Color(0xFF1C1B1F),      // near‑black for body text (Accessibility AAA)
-    onBackground = Color(0xFF424242)    // darker grey for labels like “Progress” – much better legibility
+    onPrimary = Color(0xFF2D5A32),
+    onSecondary = Color(0xFF639A5F),
+    onTertiary = Color(0xFF8BB582),
+    background = Color(0xFFF8F3E4),
+    surface = Color.White,
+    onSurface = Color(0xFF1C1B1F),
+    onBackground = Color(0xFF424242)
 )
 
 @Composable
