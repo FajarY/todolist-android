@@ -167,21 +167,7 @@ fun ToDoAppMain()
     }
     LaunchedEffect (Unit) {
         if (todoItemsList.isEmpty()) {
-            todoItemsList.insertTask(
-                InsertTaskDTO(title = "Pay electricity bill", deadline = "14 April 2026")
-            )
-            todoItemsList.insertTask(
-                InsertTaskDTO(title = "Call mom", deadline = "16 April 2026")
-            )
-            todoItemsList.insertTask(
-                InsertTaskDTO(title = "Read a book", deadline = "18 April 2026")
-            )
-            todoItemsList.insertTask(
-                InsertTaskDTO(title = "Exercise for 30 minutes", deadline = "17 April 2026")
-            )
-            todoItemsList.insertTask(
-                InsertTaskDTO(title = "Organize desk", deadline = "19 April 2026")
-            )
+            //No dummy on production
         }
     }
 
